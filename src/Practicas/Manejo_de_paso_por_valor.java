@@ -14,10 +14,11 @@ public class Manejo_de_paso_por_valor {
         int x= 10;
         imprimirValor(x);//imprime el valor de 10
         cambiarValor(x);
-        imprimirValor(x);
+        imprimirValor(x);//imprime el valor 10
     }
         public static void cambiarValor(int i){
-            i=200;
+            i=200;//esta variable es una copia de x pero al ser varible local de este metodo
+            //no se modificara x osea el valor 10
         }
         public static void imprimirValor(int arg){
             System.out.println("Valor recibido"+ arg);
