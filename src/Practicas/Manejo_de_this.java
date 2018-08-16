@@ -17,7 +17,7 @@ public class Manejo_de_this {
 
 class Persona{
     String nombre;//atributo de la clase
-    Persona(String nombre){
+    Persona(String nombre){//constructor
         this.nombre = nombre; //this es el objeto Persona(actual)
         //Imprimimos el objeto persona
         Imprimir i = new Imprimir();
